@@ -42,7 +42,7 @@ zipkinAxios.get('/user?ID=12345')
 ### Interceptors of Axios also supported
 
 You can intercept requests or responses before they are handled by then or catch.
-```
+```javascript
 // Add a request interceptor
 axios.interceptors.request.use(function (config) {
     // Do something before request is sent
