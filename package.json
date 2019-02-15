@@ -4,7 +4,7 @@
   "description": "Library to instrument the axios HTTP-client to Support zipkin.",
   "main": "src/index.js",
   "scripts": {
-    "test": "mocha --compilers js:@babel/register"
+    "test": "mocha --compilers js:@babel/register --exit"
   },
   "repository": {
     "type": "git",
