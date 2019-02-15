@@ -1,6 +1,6 @@
 {
   "name": "zipkin-instrumentation-axios-js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Library to instrument the axios HTTP-client to Support zipkin.",
   "main": "src/index.js",
   "scripts": {
