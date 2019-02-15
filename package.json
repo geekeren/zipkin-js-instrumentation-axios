@@ -1,6 +1,6 @@
 {
-  "name": "zipkin-instrumentation-axios-js",
-  "version": "1.0.0",
+  "name": "zipkin-js-instrumentation-axios",
+  "version": "0.0.1",
   "description": "Library to instrument the axios HTTP-client to Support zipkin.",
   "main": "lib/index.js",
   "scripts": {
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/geekeren/zipkin-instrumentation-axios-js.git"
+    "url": "git+ssh://git@github.com/geekeren/zipkin-js-instrumentation-axios.git"
   },
   "keywords": [
     "zipkin",
@@ -21,9 +21,9 @@
   "author": "Baiyuan Wang",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/geekeren/zipkin-instrumentation-axios-js/issues"
+    "url": "https://github.com/geekeren/zipkin-js-instrumentation-axios/issues"
   },
-  "homepage": "https://github.com/geekeren/zipkin-instrumentation-axios-js#readme",
+  "homepage": "https://github.com/geekeren/zipkin-js-instrumentation-axios#readme",
   "dependencies": {
     "axios": "^0.18.0",
     "zipkin": "^0.16.0"
