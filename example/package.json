@@ -1,0 +1,17 @@
+{
+  "name": "zipkin-js-instrumentation-axios-example",
+  "version": "1.0.0",
+  "description": "An example of zipkin-js-instrumentation-axios",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Baiyuan",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "zipkin": "^0.16.0",
+    "zipkin-js-instrumentation-axios": "0.0.1"
+  },
+  "devDependencies": {}
+}
