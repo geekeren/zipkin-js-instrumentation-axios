@@ -3,7 +3,7 @@
 [![NPM Version](https://img.shields.io/npm/v/zipkin-js-instrumentation-axios.svg?style=flat)](https://www.npmjs.com/package/zipkin-js-instrumentation-axios)
 [![NPM Downloads](https://img.shields.io/npm/dm/zipkin-js-instrumentation-axios.svg?style=flat)](https://www.npmjs.com/package/zipkin-js-instrumentation-axios)
 [![CircleCI Status](https://img.shields.io/circleci/project/github/geekeren/zipkin-js-instrumentation-axios.svg?style=flat)](https://circleci.com/gh/geekeren/workflows/zipkin-js-instrumentation-axios)
-[![License](https://img.shields.io/hexpm/l/zipkin-js-instrumentation-axios.svg?style=flat)](https://opensource.org/licenses/Apache-2.0)
+[![License](https://img.shields.io/npm/l/zipkin-js-instrumentation-axios.svg?style=flat)](https://opensource.org/licenses/Apache-2.0)
 
 Adds Zipkin tracing support for the [axios](https://www.npmjs.com/package/axios) JS HTTP client library. It **supports all features of `axios`**.
 
