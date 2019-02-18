@@ -2,7 +2,7 @@ import { Tracer, ExplicitContext } from 'zipkin';
 import express from 'express';
 import axios from 'axios';
 import sinon from 'sinon';
-import { expect } from 'Chai';
+import { expect } from 'chai';
 import wrapAxios from '../src/index';
 
 describe('axios instrumentation - integration test', () => {
