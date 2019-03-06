@@ -30,7 +30,7 @@ const localServiceName = 'service-a'; // name of this application
 const tracer = new Tracer({ ctxImpl, recorder, localServiceName });
 
 const remoteServiceName = 'weather-api';
-const zipkinAxios = wrapAxios(axios, { tracer, localServiceName, remoteServiceName });
+const zipkinAxios = wrapAxios(axios, { tracer, serviceName: localServiceName, remoteServiceName });
 
 zipkinAxios.get('/user?ID=12345')
   .then(function (response) {
