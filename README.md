@@ -19,6 +19,8 @@ You need to use `wrapAxios` fucntion to wrap the native `axios` instance, and th
 
 For example:
 
+- Performing a GET request
+
 ```javascript
 const axios = require('axios');
 const wrapAxios = require('zipkin-js-instrumentation-axios');
@@ -40,6 +42,22 @@ zipkinAxios.get('/user?ID=12345')
     console.log(error);
   });
 ```
+
+- Wrap an axios instance
+
+```javascript
+  let axiosInstance = axios.create({
+    baseURL: 'https://some-domain.com/api/',
+    timeout: 1000,
+    headers: {'X-Custom-Header': 'foobar'}
+});
+  axiosInstance = wrapAxios(axiosInstance, {
+    tracer,
+    serviceName: localServiceName,
+    remoteServiceName
+  });
+```
+
 
 ### Interceptors of Axios also supported
 
